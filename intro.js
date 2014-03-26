@@ -7,16 +7,16 @@
  */
 
 (function (root, factory) {
-  if (typeof exports === 'object') {
+  /*if (typeof exports === 'object') {
     // CommonJS
     factory(exports);
   } else if (typeof define === 'function' && define.amd) {
     // AMD. Register as an anonymous module.
     define(['exports'], factory);
-  } else {
+  } else {*/
     // Browser globals
     factory(root);
-  }
+  //}
 } (this, function (exports) {
   //Default config/variables
   var VERSION = '0.8.0';
